@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Copy 404.html
-        run: cp ./dist/quizzer/index.html ./dist/quizzer/404.html
+        run: cp ./dist/angular-test/index.html ./dist/angular-test/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
